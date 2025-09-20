@@ -64,7 +64,7 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/yourusername/ESP32S3-USB-DEVICE-SIMULATOR.git
+git clone https://github.com/14790897/ESP32S3-USB-DEVICE-SIMULATOR.git
 cd ESP32S3-USB-DEVICE-SIMULATOR
 ```
 
