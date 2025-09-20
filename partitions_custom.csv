@@ -1,0 +1,9 @@
+# ESP32-S3 Custom Partition Table (4MB Flash)
+# Name,   Type, SubType, Offset,  Size, Flags
+nvs,      data, nvs,     0x9000,  0x6000,
+otadata,  data, ota,     0xF000,  0x2000,
+app0,     app,  ota_0,   0x20000, 0x180000,
+app1,     app,  ota_1,   0x1A0000,0x180000,
+spiffs,   data, spiffs,  0x320000,0xC0000,
+coredump, data, coredump,0x3E0000,0x10000,
+storage,  data, fat,     0x3F0000,0x10000,
